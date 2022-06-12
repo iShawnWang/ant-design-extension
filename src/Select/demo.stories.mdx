@@ -1,0 +1,19 @@
+<!---Button.stories.mdx --->
+
+import { Meta, Story } from '@storybook/addon-docs';
+
+import Component from './index';
+
+<Meta title="Select" component={Component} />
+
+export const Template = (args) => <Component {...args} />;
+
+# Select
+
+```
+import { Select } from '@magi-component/paas-dywCommon-Select';
+
+<Select options={() => {
+  return fetch('YourApi').then(resp => resp.data.map(d => {label: d.label, value: d.value}))
+}}></Select>
+```

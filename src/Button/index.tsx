@@ -1,6 +1,6 @@
 import React, {useState, useCallback} from 'react'
-import {Button as AntButton} from 'antd'
-import type {ButtonProps} from 'antd'
+import { Button as AntButton } from 'antd'
+import type { ButtonProps } from 'antd'
 
 function isPromise(obj: any) {
   return !!obj && (typeof obj === 'object' || typeof obj === 'function') && typeof obj.then === 'function';

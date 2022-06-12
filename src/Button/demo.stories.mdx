@@ -1,0 +1,23 @@
+<!---Button.stories.mdx --->
+
+import { Meta, Story } from '@storybook/addon-docs';
+
+import Component from './index';
+
+<Meta title="Button" component={Component} />
+
+export const Template = (args) => <Component {...args} />;
+
+# Button
+
+```
+import { Button } from '@magi-component/paas-dywCommon-Button';
+
+<Button
+  onClick={() => {
+    return fetch('https://baidu.com') // 自动 进入 loading 状态
+  }}
+>
+  按钮
+</Button>
+```

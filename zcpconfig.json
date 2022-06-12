@@ -1,0 +1,25 @@
+{
+    "config": {
+        "dependencies": {},
+        "env": {
+            "compiler": "none",
+            "tester": "none"
+        },
+        "componentsDirectory": [
+            {
+                "name": "Button",
+                "path": "./src/Button"
+            },
+            {
+                "name": "",
+                "path": "./src/Select"
+            }
+        ],
+        "organization": "paas",
+        "collection": "dywCommon",
+        "language": "react",
+        "alias": {},
+        "forkPath": "emm"
+    },
+    "zcpmap": {}
+}
