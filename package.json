@@ -1,0 +1,22 @@
+{
+  "name": "ant-design-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "iShawnWang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.12",
+    "antd": "^4.21.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "antd": "^4.21.0",
+    "react-dom": "^18.1.0"
+  }
+}
